@@ -16,7 +16,4 @@ public class KalkulatorApplication {
         firstFunction.CalculatorSubtract();
     }
 
-
-
-
 }
