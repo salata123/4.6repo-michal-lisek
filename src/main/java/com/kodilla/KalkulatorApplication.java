@@ -9,11 +9,11 @@ public class KalkulatorApplication {
     public static void main(String[] args) {
         SpringApplication.run(KalkulatorApplication.class, args);
 
-        Calculator firstFunction = new Calculator(10, 5);
+        Calculator firstFunction = new Calculator();
 
-        firstFunction.CalculatorAdd();
+        firstFunction.CalculatorAdd(10, 5);
 
-        firstFunction.CalculatorSubtract();
+        firstFunction.CalculatorSubtract(10, 5);
     }
 
 }
