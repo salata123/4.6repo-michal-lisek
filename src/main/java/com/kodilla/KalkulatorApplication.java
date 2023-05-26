@@ -11,9 +11,9 @@ public class KalkulatorApplication {
 
         Calculator firstFunction = new Calculator();
 
-        firstFunction.CalculatorAdd(10, 5);
+        firstFunction.calculatorAdd(10, 5);
 
-        firstFunction.CalculatorSubtract(10, 5);
+        firstFunction.calculatorSubtract(10, 5);
     }
 
 }
